@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://python.org" target="_click">
+  <a href="https://python.org" target="_blank">
     <img src="assets/python_logo.png" width="300px" alt="Python logomarca">
   </a>
 </p>
