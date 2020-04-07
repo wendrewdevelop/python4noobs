@@ -93,37 +93,37 @@
 
 ### 11. Trabalhando com API's
 
-11.1. [Biblioteca requests](/Trabalhando-com-API's/biblioteca_requests.md)<br>
-11.2. [Introdução ao conceito de API's](/Trabalhando-com-API's/introducao_apis.md)<br>
-11.3. [Headers](/Trabalhando-com-API's/headers.md)<br>
-11.4. [Conteúdo da resposta](/Trabalhando-com-API's/Conteúdo-da-resposta)<br>
-  - 11.4.1: [Resposta binária](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_binaria.md)<br>
-  - 11.4.2: [Resposta JSON](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_json.md)<br>
-  - 11.4.3: [Resposta crua](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_crua.md)<br>
-11.5. [Realizando requisições](/Trabalhando-com-API's/Realizando-requisições)
-  - 11.5.1: [GET](/Trabalhando-com-API's/Realizando-requisições/get.md)<br>
-  - 11.5.2: [POST](/Trabalhando-com-API's/Realizando-requisições/post.md)<br>
-  - 11.5.3: [UPDATE](/Trabalhando-com-API's/Conteúdo-da-resposta/update.md)<br>
-  - 11.5.4: [DELETE](/Trabalhando-com-API's/Conteúdo-da-resposta/delete.md)<br>
-11.6. [Cabeçalhos personalizados](/Trabalhando-com-API's/biblioteca_requests.md)<br>
-11.7. [Requisições POST mais complicadas](/Trabalhando-com-API's/biblioteca_requests.md)<br>
-11.8. [POST de arquivo Multipart](/Trabalhando-com-API's/post.md)<br>
-11.9. [Cookies](/Trabalhando-com-API's/cookies.md)<br>
-11.10. [Redirecionamento e Histórico](/Trabalhando-com-API's/redirecionamento_historico.md)<br>
-11.11. [Timeouts](/Trabalhando-com-API's/timeouts.md)<br>
-11.12. [Erros e Exceções](/Trabalhando-com-API's/erros_excecoes.md)
+[Biblioteca requests](/Trabalhando-com-API's/biblioteca_requests.md)<br>
+[Introdução ao conceito de API's](/Trabalhando-com-API's/introducao_apis.md)<br>
+[Headers](/Trabalhando-com-API's/headers.md)<br>
+[Conteúdo da resposta](/Trabalhando-com-API's/Conteúdo-da-resposta)<br>
+  * [Resposta binária](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_binaria.md)<br>
+  * [Resposta JSON](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_json.md)<br>
+  * [Resposta crua](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_crua.md)<br><br>
+[Realizando requisições](/Trabalhando-com-API's/Realizando-requisições)
+  * [GET](/Trabalhando-com-API's/Realizando-requisições/get.md)<br>
+  * [POST](/Trabalhando-com-API's/Realizando-requisições/post.md)<br>
+  * [UPDATE](/Trabalhando-com-API's/Conteúdo-da-resposta/update.md)<br>
+  * [DELETE](/Trabalhando-com-API's/Conteúdo-da-resposta/delete.md)<br>
+[Cabeçalhos personalizados](/Trabalhando-com-API's/biblioteca_requests.md)<br>
+[Requisições POST mais complicadas](/Trabalhando-com-API's/biblioteca_requests.md)<br>
+[POST de arquivo Multipart](/Trabalhando-com-API's/post.md)<br>
+[Cookies](/Trabalhando-com-API's/cookies.md)<br>
+[Redirecionamento e Histórico](/Trabalhando-com-API's/redirecionamento_historico.md)<br>
+[Timeouts](/Trabalhando-com-API's/timeouts.md)<br>
+[Erros e Exceções](/Trabalhando-com-API's/erros_excecoes.md)
 
 ### 12. Projetos de conclusão
 
-12.1: [Criando uma calculadora com interface grafica](/Projetos-de-conclusão/bloco_de_notas.md)<br>
-12.2: [Criando bot](/Projetos-de-conclusão/criando_bot.md)<br>
-12.3: [Requisições em uma API publica](/Projetos-de-conclusão/realizando_requisicoes_em_api_publica.md)
+[Criando uma calculadora com interface grafica](/Projetos-de-conclusão/bloco_de_notas.md)<br>
+[Criando bot](/Projetos-de-conclusão/criando_bot.md)<br>
+[Requisições em uma API publica](/Projetos-de-conclusão/realizando_requisicoes_em_api_publica.md)
 
 ### 13. Extras
 
-13.1: [Bloco de notas com tkinter](/Extras/bloco_de_notas.md)<br>
-13.2: [Jupyter Notebook](/Extras/jupyter_notebook.md)<br>
-13.3: [Bruteforce](/Extras/bruteforce.md)
+[Bloco de notas com tkinter](/Extras/bloco_de_notas.md)<br>
+[Jupyter Notebook](/Extras/jupyter_notebook.md)<br>
+[Bruteforce](/Extras/bruteforce.md)
 
 
 ## Autores
