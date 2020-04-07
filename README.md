@@ -99,7 +99,7 @@
 11.4: [Conteúdo da resposta](/Trabalhando-com-API's/Conteúdo-da-resposta)<br>
   * 11.4.1: [Resposta binária](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_binaria.md)<br>
   * 11.4.2: [Resposta JSON](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_json.md)<br>
-  * 11.4.3: [Resposta crua](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_crua.md)
+  * 11.4.3: [Resposta crua](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_crua.md)<br>
 11.5: [Realizando requisições](/Trabalhando-com-API's/Realizando-requisições)<br>
   * 11.5.1: [GET](/Trabalhando-com-API's/Realizando-requisições/get.md)<br>
   * 11.5.2: [POST](/Trabalhando-com-API's/Realizando-requisições/post.md)<br>
