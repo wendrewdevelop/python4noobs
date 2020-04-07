@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://heartdevs.com">
+  <a href="https://heartdevs.com" target="_click">
     <img src="https://i.imgur.com/gQNRPaj.png" width="100%" alt="Logo da He4rtDevs">
   </a>
 </p>
