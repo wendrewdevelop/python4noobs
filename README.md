@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="/images//git.svg" alt="Git" width="120px" />
+  <img src="/assets/python_logo_extended.png" alt="python_logo_extended" width="120px" />
 </h1>
 
 <p align="center">
