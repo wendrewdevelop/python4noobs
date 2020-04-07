@@ -99,19 +99,19 @@
 11.4: [Conteúdo da resposta](/Trabalhando-com-API's/Conteúdo-da-resposta)<br>
   * 11.4.1: [Resposta binária](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_binaria.md)<br>
   * 11.4.2: [Resposta JSON](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_json.md)<br>
-  * 11.4.3: [Resposta crua](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_crua.md)<br>
+  * 11.4.3: [Resposta crua](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_crua.md)
 11.5: [Realizando requisições](/Trabalhando-com-API's/Realizando-requisições)<br>
-  * 11.4.1: [GET](/Trabalhando-com-API's/Realizando-requisições/get.md)<br>
-  * 11.4.2: [POST](/Trabalhando-com-API's/Realizando-requisições/post.md)<br>
-  * 11.4.3: [UPDATE](/Trabalhando-com-API's/Conteúdo-da-resposta/update.md)<br>
-  * 11.4.3: [DELETE](/Trabalhando-com-API's/Conteúdo-da-resposta/delete.md)<br>
-11.1: [Cabeçalhos personalizados](/Trabalhando-com-API's/biblioteca_requests.md)<br>
-11.1: [Requisições POST mais complicadas](/Trabalhando-com-API's/biblioteca_requests.md)<br>
-11.1: [POST de arquivo Multipart](/Trabalhando-com-API's/post.md)<br>
-11.1: [Cookies](/Trabalhando-com-API's/cookies.md)<br>
-11.1: [Redirecionamento e Histórico](/Trabalhando-com-API's/redirecionamento_historico.md)<br>
-11.1: [Timeouts](/Trabalhando-com-API's/timeouts.md)<br>
-11.1: [Erros e Exceções](/Trabalhando-com-API's/erros_excecoes.md)
+  * 11.5.1: [GET](/Trabalhando-com-API's/Realizando-requisições/get.md)<br>
+  * 11.5.2: [POST](/Trabalhando-com-API's/Realizando-requisições/post.md)<br>
+  * 11.5.3: [UPDATE](/Trabalhando-com-API's/Conteúdo-da-resposta/update.md)<br>
+  * 11.5.4: [DELETE](/Trabalhando-com-API's/Conteúdo-da-resposta/delete.md)<br>
+11.6: [Cabeçalhos personalizados](/Trabalhando-com-API's/biblioteca_requests.md)<br>
+11.7: [Requisições POST mais complicadas](/Trabalhando-com-API's/biblioteca_requests.md)<br>
+11.8: [POST de arquivo Multipart](/Trabalhando-com-API's/post.md)<br>
+11.9: [Cookies](/Trabalhando-com-API's/cookies.md)<br>
+11.10: [Redirecionamento e Histórico](/Trabalhando-com-API's/redirecionamento_historico.md)<br>
+11.11: [Timeouts](/Trabalhando-com-API's/timeouts.md)<br>
+11.12: [Erros e Exceções](/Trabalhando-com-API's/erros_excecoes.md)
 
 ### 12. Projetos de conclusão
 
