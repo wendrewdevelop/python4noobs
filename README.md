@@ -24,7 +24,7 @@
 
 3.1: [Introdução a estrutura de dados em python](/Instalação/introducao_estrutura_dados.md)<br>
 3.2: [String](/Instalação/strings.md)<br>
-3.3: [Numbers](/Instalação/numbers.md)
+3.3: [Numbers](/Instalação/numbers.md)<br>
 3.4: [Listas](/Instalação/listas.md)<br>
 3.5: [Dicionarios](/Instalação/dicionarios.md)<br>
 3.6: [Tuplas](/Instalação/tuplas.md)<br>
@@ -97,14 +97,14 @@
 11.2: [Introdução ao conceito de API's](/Trabalhando-com-API's/introducao_apis.md)<br>
 11.3: [Headers](/Trabalhando-com-API's/headers.md)<br>
 11.4: [Conteúdo da resposta](/Trabalhando-com-API's/Conteúdo-da-resposta)<br>
-  11.4.1: [Resposta binária](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_binaria.md)<br>
-  11.4.2: [Resposta JSON](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_json.md)<br>
-  11.4.3: [Resposta crua](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_crua.md)<br>
+  * 11.4.1: [Resposta binária](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_binaria.md)<br>
+  * 11.4.2: [Resposta JSON](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_json.md)<br>
+  * 11.4.3: [Resposta crua](/Trabalhando-com-API's/Conteúdo-da-resposta/resposta_crua.md)<br>
 11.5: [Realizando requisições](/Trabalhando-com-API's/Realizando-requisições)<br>
-  11.4.1: [GET](/Trabalhando-com-API's/Realizando-requisições/get.md)<br>
-  11.4.2: [POST](/Trabalhando-com-API's/Realizando-requisições/post.md)<br>
-  11.4.3: [UPDATE](/Trabalhando-com-API's/Conteúdo-da-resposta/update.md)<br>
-  11.4.3: [DELETE](/Trabalhando-com-API's/Conteúdo-da-resposta/delete.md)<br>
+  * 11.4.1: [GET](/Trabalhando-com-API's/Realizando-requisições/get.md)<br>
+  * 11.4.2: [POST](/Trabalhando-com-API's/Realizando-requisições/post.md)<br>
+  * 11.4.3: [UPDATE](/Trabalhando-com-API's/Conteúdo-da-resposta/update.md)<br>
+  * 11.4.3: [DELETE](/Trabalhando-com-API's/Conteúdo-da-resposta/delete.md)<br>
 11.1: [Cabeçalhos personalizados](/Trabalhando-com-API's/biblioteca_requests.md)<br>
 11.1: [Requisições POST mais complicadas](/Trabalhando-com-API's/biblioteca_requests.md)<br>
 11.1: [POST de arquivo Multipart](/Trabalhando-com-API's/post.md)<br>
