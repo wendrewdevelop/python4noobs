@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://python.org">
-    <img src="assets/python_logo.png" width="600px" alt="Python logomarca">
+    <img src="assets/python_logo.png" width="300px" alt="Python logomarca">
   </a>
 </p>
 
