@@ -129,3 +129,7 @@
 ## Autores
 
 - **Wendrew Oliveira** - _Python developer_ - [Github](https://github.com/wendrewdevelop) - [Twitter](https://twitter.com/dreeeew_s)
+
+<hr>
+
+<p align="center">Made with 💜</p>
