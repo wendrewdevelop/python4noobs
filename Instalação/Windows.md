@@ -1,4 +1,4 @@
-<h1>Instalação do python no ambiente Windows</h1>
+﻿<h1>Instalação do python no ambiente Windows</h1>
 <p align ="center"><img align=center src="https://upload.wikimedia.org/wikipedia/commons/3/34/Windows_logo_-_2012_derivative.svg"></p>
 Fala primo!!!<br>
 Você aprenderá agora como baixar e instalar o python em sua máquina de SO(sistema operacional) Windows.<br>
@@ -43,4 +43,4 @@ Siga para o próxima aula.<br>
 <br>
 <b>OBS:</b> Qualquer problema com a instalação ou dúvida relacionado ao contéudo apresentado neste repositório.<br>
 Acesse o discord da heart developers, que a comunidade irá fornecer o suporte necessário, para sua você.<br>
-Discord: <a href="discord.io/He4rt">discord</a>
+Discord: <a href="https://discord.com/invite/7UJDgBG">discord</a>
