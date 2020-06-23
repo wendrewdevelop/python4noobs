@@ -12,7 +12,7 @@ Exemplo 3:<br>
 "321123"<br>
 
 <p>Agora, vamos tirar a prova e conferir se o python reconhece estas cadeias como uma String.</p>
-<hr>
+
 
 ## Hora do código
 <p>Então, agora você abrir seu editor de código criar um arquivo <b>.py .</b><br>
@@ -33,7 +33,7 @@ Assim, ficará o seu .py
 
 
 </code>
-<hr>
+
 
 ## Hora de vê funcionando
 <p>Basta executar o script para recebermos a seguinte saída.</p>
@@ -45,7 +45,7 @@ Assim, ficará o seu .py
     <class 'str'>
 
 </code>
-<hr>
+
 
 ## Conversão para String
 <p>Variáveis que inicialmente não são do tipo <b>string</b> podem ser convertidas.<br>
@@ -81,7 +81,7 @@ E assim, a nossa String3 volta a ser uma <b>string</b>.
     <class 'str'>
 
 </code>
-<hr>
+
 
 ## Concatenação
 
@@ -117,7 +117,7 @@ Agora, basta rodar nosso script para recerbemos a seguinte saída.
     Python é muito  muito  muito   legal
 
 </code>
-<hr>
+
 
 ## Descontruindo uma String
 
@@ -186,7 +186,7 @@ Saída.
 
     pto
 </code>
-<hr>
+
 
 ## Métodos internos
 Um dos métodos internos do <b>python</b> é o len.</b><br>
@@ -286,7 +286,7 @@ Saída.
 
     ['Br', 'il'] #Foi criado um vetor para separar entre a letra a
 </code>
-<hr>
+
 
 ## Finalizando
 Você agora possui conhecimento sobre oque é uma string, em<b> python</b> e como fazer manipulações com a mesma. Prossiga nos seus estudos e pule para o próximo <b>readme.</b>
