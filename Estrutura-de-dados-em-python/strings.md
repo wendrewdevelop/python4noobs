@@ -20,6 +20,7 @@ Criar três variáveis com nomes a sua escolha.<br> No exemplo, eu coloquei os n
 Em seguida, digitar três comandos <b>print</b> e como paramêtro usaremos o <b>método interno type</b> para saber se são realmente strings as nossas três variáveis.
 </p>
 Assim, ficará o seu .py
+
 <code>
 
     String1 = 'Olá mundo'
