@@ -126,8 +126,10 @@
 13.3: [Bruteforce](/Extras/bruteforce.md)
 
 
-## Autores
+## Autores & Contribuidores
 
 - **Wendrew Oliveira** - _Python developer_ - [Github](https://github.com/wendrewdevelop) - [Twitter](https://twitter.com/dreeeew_s)
+
+- **Matheus Morata** - [Github](https://github.com/MatheusMorata)- [Twitter](https://twitter.com/M4theus_Morata)
 
 <p align="center">Made with 💜</p>
