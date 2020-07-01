@@ -1,0 +1,3 @@
+# Estruturas de controle e repetição
+
+- Em Python, assim como na maioria das linguagens de programação, o programa deve ser capaz de tomar decisões com base em valores e resultados gerados durante sua execução, ou seja, deve ser capaz de decidir se determinada instrução deve ou não ser executada de acordo com uma condição. Para atender a esse tipo de situação, podemos utilizar instruções especiais denominadas estruturas condicionais.
