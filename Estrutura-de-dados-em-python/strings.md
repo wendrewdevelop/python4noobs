@@ -1,4 +1,4 @@
-# 3.2 - String
+﻿# 3.2 - String
 String é uma cadeia de caracteres envolvida por aspas simples ou duplas.<br>
 Como nos seguintes, exemplos:<br>
 
@@ -15,9 +15,12 @@ Exemplo 3:<br>
 
 
 ## Hora do código
-<p>Então, agora você abrir seu editor de código criar um arquivo <b>.py .</b><br>
-Criar três variáveis com nomes a sua escolha.<br> No exemplo, eu coloquei os nomes: String1, String2 e String3.<br>
-Em seguida, digitar três comandos <b>print</b> e como paramêtro usaremos o <b>método interno type</b> para saber se são realmente strings as nossas três variáveis.
+<ol>
+    <li>Agora você vai abrir seu editor de código criar um arquivo <b>.py</b>.</li> 
+    <li>Criar três variáveis com nomes a sua escolha.</li> 
+<b>OBS:</b> No exemplo, eu coloquei os nomes: String1, String2 e String3.
+    <li>Em seguida, digitar três comandos <b>print</b> e como paramêtro usaremos o <b>método interno type</b> para saber se são realmente strings as nossas três variáveis.</li>
+</ol>
 </p>
 Assim, ficará o seu .py
 
@@ -57,7 +60,7 @@ Vamos conferir, retirando as aspas da string3<br>
     String3 = 321123
 
 </code>
-Vamos usar agora conferir seu novo tipo.
+Vamos agora conferir o novo tipo da variável <b>String3</b>.
 <code>
 
     <class 'int'>
@@ -85,9 +88,11 @@ E assim, a nossa String3 volta a ser uma <b>string</b>.
 
 ## Concatenação
 
-<p><b>Concatenação</b> é a operação de unir o conteúdo de duas strings.
+<p>A <b>Concatenação</b> é a operação de unir o conteúdo de duas strings.</p>
 <br>
-Crie uma nova variável e atribua a ela dois textos entre aspas separados por um sinal de adição.</p>
+Crie uma nova variável e atribua a ela dois textos entre aspas separados por um sinal de adição.
+
+
 <code>
 
     String4 = "Python" + "é legal"
@@ -131,7 +136,7 @@ acessadas por partes.
 |0|1|2|3|4|5|
 |-6|-5|-4|-3|-2|-1|
 
-Crie uma nova string e atribua a ela a palavra: <b>python</b>
+Crie uma nova variável do tipo <b>String</b> e atribua a ela a palavra: <b>python</b>
 <code>
     
     String5 = "python"
@@ -190,8 +195,8 @@ Saída.
 
 ## Métodos internos
 Um dos métodos internos do <b>python</b> é o len.</b><br>
-O método <b>len,</b> tem como utilidade mostrar o número de caracteres de uma string <br>
-Crie a nossa sexta string.
+O método <b>len,</b> tem como utilidade mostrar o número de caracteres de uma string. <br>
+Crie uma nova variável do tipo <b>String</b>.
 
 <code>
 
@@ -208,8 +213,8 @@ Saída.
     12  
 </code>
 
-<b>Count</b>, é mais uma destes métodos internos.
-A sua função é verificar quantas vezes tal caractere aparece.
+<b>Count</b> é mais uma destes métodos internos.
+A sua função é verificar quantas vezes determinado caractere aparece, em uma <b>String</b>.
 <code>
     
     print(String6.count("o"))
@@ -219,19 +224,19 @@ saída.
     
     3
 </code>
-Podemos definir também de onde iniciar e onde parar
+Podemos definir também de onde iniciar e onde parar.
 <code>
 
     print(String6.count("o",3,7))
     
 </code>
-Entre o caractere de índice três e índice sete, contém apenas uma letra <b>O.</b><br>
-Vejamos, se a nossa saída é um.<br>
 Saída.
 <code>
 
     1
 </code>
+Entre o caractere de índice três e o de índice sete, contém apenas uma letra <b>O</b>, segundo a nossa saída.<br>
+<br>
 <p>
 Outros, dois métodos são o <b>UPPER</b> e <b>LOWER.</b><br>
 Suas funções, são respectivamente, deixar a string em caixa alta e caixa baixa.<br>
@@ -293,6 +298,6 @@ Você agora possui conhecimento sobre oque é uma string, em<b> python</b> e com
 <br>
 <br>
 <b>OBS:</b> Qualquer dúvida relacionada ao contéudo apresentado neste repositório.<br>
-Acesse o discord da heart developers, que a comunidade irá fornecer o suporte necessário, para sua você.<br>
+Acesse o discord da heart developers, que a comunidade irá fornecer o suporte necessário, para você.<br>
 Discord: <a href="https://discord.com/invite/7UJDgBG">discord</a>
 <hr>
