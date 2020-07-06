@@ -40,8 +40,9 @@
 
 ### 5. Expressões
 
-[Conversões aritmeticas](/Expressões/conversoes_aritmeticas.md)<br>
-[Comparações](/Expressões/comparacoes.md)
+[Conversões aritméticas](/Expressões/conversoes_aritmeticas.md)<br>
+[Comparações](/Expressões/comparacoes.md)<br>
+[Introdução](/Expressões/introdução.md)<br>
 
 ### 6. Instruções simples
 
