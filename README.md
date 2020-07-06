@@ -22,14 +22,14 @@
 
 ### 3. Estrutura de dados em python
 
-3.1: [Introdução a estrutura de dados em python](/Instalação/introducao_estrutura_dados.md)<br>
-[String](/Instalação/strings.md)<br>
-[Numbers](/Instalação/numbers.md)<br>
-[Listas](/Instalação/listas.md)<br>
-[Dicionarios](/Instalação/dicionarios.md)<br>
-[Tuplas](/Instalação/tuplas.md)<br>
-[Sets](/Instalação/sets.md)<br>
-[Booleanos](/Instalação/booleanos.md)<br>
+[Introdução a estrutura de dados em python](/Estrutura-de-dados-em-python/introducao_estrutura_dados.md)<br>
+[String](/Estrutura-de-dados-em-python/strings.md)<br>
+[Numbers](/Estrutura-de-dados-em-python/numbers.md)<br>
+[Listas](/Estrutura-de-dados-em-python/listas.md)<br>
+[Dicionarios](/Estrutura-de-dados-em-python/dicionarios.md)<br>
+[Tuplas](/Estrutura-de-dados-em-python/tuplas.md)<br>
+[Sets](/Estrutura-de-dados-em-python/sets.md)<br>
+[Booleanos](/Estrutura-de-dados-em-python/booleanos.md)<br>
 
 ### 4. Estruturas de condição
 
@@ -45,13 +45,13 @@
 
 ### 6. Instruções simples
 
-[Expressão assert](/Declarações-simples/assert.md)<br>
-[Expressão pass](/Declarações-simples/pass.md)<br>
-[Expressão del](/Declarações-simples/del.md)<br>
-[Expressão return](/Declarações-simples/return.md)<br>
-[Expressão raise](/Declarações-simples/raise.md)<br>
-[Expressão global](/Declarações-simples/global.md)<br>
-[Expressão nonlocal](/Declarações-simples/nonlocal.md)
+[Expressão assert](/Instruções-simples/assert.md)<br>
+[Expressão pass](/Instruções-simples/pass.md)<br>
+[Expressão del](/Instruções-simples/del.md)<br>
+[Expressão return](/Instruções-simples/return.md)<br>
+[Expressão raise](/Instruções-simples/raise.md)<br>
+[Expressão global](/Instruções-simples/global.md)<br>
+[Expressão nonlocal](/Instruções-simples/nonlocal.md)
 
 ### 7. Declarações compostas
 
