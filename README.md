@@ -54,24 +54,14 @@
 [Expressão global](/Instruções-simples/global.md)<br>
 [Expressão nonlocal](/Instruções-simples/nonlocal.md)
 
-### 7. Declarações compostas
-
-[if](/Declarações-compostas/if.md)<br>
-[while](/Declarações-compostas/while.md)<br>
-[for](/Declarações-compostas/for.md)<br>
-[try](/Declarações-compostas/try.md)<br>
-[with](/Declarações-compostas/with.md)<br>
-[function](/Declarações-compostas/function.md)<br>
-[class](/Declarações-compostas/class.md)
-
-### 8. Manipulando arquivos
+### 7. Manipulando arquivos
 
 [Entendendo a manipulação de arquivos](/Manipulando-arquivos/entendendo_manipulacao_arquivos.md)<br>
 [Lendo arquivos](/Manipulando-arquivos/lendo_arquivos.md)<br>
 [Criando e abrindo arquivos](/Manipulando-arquivos/criando_abrindo_arquivos.md)
 [Escrevendo em arquivos](/Manipulando-arquivos/escrevendo_em_arquivos.md)
 
-### 9. Módulo TKinter (interface grafica desktop)
+### 8. Módulo TKinter (interface grafica desktop)
 
 [Interfaces Gráficas com Tk](/Módulo-Tkinter/entendendo_manipulacao_arquivos.md)<br>
 [Módulos Tkinter](/Módulo-Tkinter/modulos_tkinter.md)<br>
@@ -80,7 +70,7 @@
 [Atributos padrão](/Módulo-Tkinter/atributos_padrao.md)<br>
 [Gerenciamento da geometria](/Módulo-Tkinter/gerenciamento_geometria-.md)
 
-### 10. Gerando gráficos com python
+### 9. Gerando gráficos com python
 
 [Como isso funciona?](/Gerando-gráficos/como_funciona.md)<br>
 [Gerando grafico simples](/Gerando-gráficos/grafico_simples.md)<br>
@@ -89,7 +79,7 @@
 [BarChart](/Gerando-gráficos/grafico_barras.md)<br>
 [Salvando gráfico em um arquivo](/Gerando-gráficos/salvando_grafico_arquivo.md)
 
-### 11. Trabalhando com API's
+### 10. Trabalhando com API's
 
 [Biblioteca requests](/Trabalhando-com-API's/biblioteca_requests.md)<br>
 [Introdução ao conceito de API's](/Trabalhando-com-API's/introducao_apis.md)<br>
@@ -107,13 +97,13 @@
 [Timeouts](/Trabalhando-com-API's/timeouts.md)<br>
 [Erros e Exceções](/Trabalhando-com-API's/erros_excecoes.md)
 
-### 12. Projetos de conclusão
+### 11. Projetos de conclusão
 
 [Criando uma calculadora com interface grafica](/Projetos-de-conclusão/bloco_de_notas.md)<br>
 [Criando bot](/Projetos-de-conclusão/criando_bot.md)<br>
 [Requisições em uma API publica](/Projetos-de-conclusão/realizando_requisicoes_em_api_publica.md)
 
-### 13. Extras
+### 12. Extras
 
 [Bloco de notas com tkinter](/Extras/bloco_de_notas.md)<br>
 [Jupyter Notebook](/Extras/jupyter_notebook.md)<br>
