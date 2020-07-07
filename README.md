@@ -103,11 +103,7 @@
   [POST](/Trabalhando-com-API's/Realizando-requisições/post.md)<br>
   [UPDATE](/Trabalhando-com-API's/Conteúdo-da-resposta/update.md)<br>
   [DELETE](/Trabalhando-com-API's/Conteúdo-da-resposta/delete.md)<br>
-[Cabeçalhos personalizados](/Trabalhando-com-API's/biblioteca_requests.md)<br>
-[Requisições POST mais complicadas](/Trabalhando-com-API's/biblioteca_requests.md)<br>
-[POST de arquivo Multipart](/Trabalhando-com-API's/post.md)<br>
 [Cookies](/Trabalhando-com-API's/cookies.md)<br>
-[Redirecionamento e Histórico](/Trabalhando-com-API's/redirecionamento_historico.md)<br>
 [Timeouts](/Trabalhando-com-API's/timeouts.md)<br>
 [Erros e Exceções](/Trabalhando-com-API's/erros_excecoes.md)
 
