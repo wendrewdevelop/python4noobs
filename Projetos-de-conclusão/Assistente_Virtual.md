@@ -1,4 +1,4 @@
-# Desenvolvendo uma assistente virtual
+﻿# Desenvolvendo uma assistente virtual
 <b>Requisitos:</b> 
 <ul>
     <li>Um microfone.</li>
@@ -186,3 +186,5 @@ Agora, com a função escutar pronta, basta inicializarmos ela.
     print(escutar())
 </code> 
 Por fim, é só executar no script e vê conferir como ficou.
+
+Ainda desenvolvendo :/
