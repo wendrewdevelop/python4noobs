@@ -6,7 +6,7 @@
 </ul>
 Já pensou em desenvolver uma nova siri?<br>
 Já pensou em desenvolver a sua cortana?<br>
-Então, você está no lugar.<br>
+Então, você está no lugar certo.<br>
 Neste .md te ensinarei a desenvolver sua própria assistente virtual.
 
 ## Instalação 
@@ -185,6 +185,235 @@ Agora, com a função escutar pronta, basta inicializarmos ela.
 
     print(escutar())
 </code> 
-Por fim, é só executar no script e vê conferir como ficou.
+Por fim, é só executar no script e conferir como ficou.
 
-Ainda desenvolvendo :/
+### Contando piadas 
+
+<p>Vamos, dar uma funcionalidade muito boa a nossa assistente virtual que é contar piadas.
+Para isso, busquei algumas na internet e a salvei-as num vetor. 
+</p>
+
+<code>
+
+    #biblioteca de criação do áudio
+    from gtts import gTTS
+    #biblioteca de reprodução do áudio
+    import playsound
+    #biblioteca que recebe o áudio do microfone
+    import speech_recognition as sr
+    #biblioteca que gera números aleatórios
+    import random    
+
+    #Função que faz a assistente virtual falar
+    #O parâmetro text é o texto que desejamos que seja falado
+    def falar(text):
+        #Nesta linha acontece a mágica
+        tts = gTTS(text=text,lang="pt")
+        arquivo = "voz.mp3"
+        #Aqui salvamos o arquivo .mp3
+        tts.save(arquivo)
+        #Aqui reproduzimos
+        playsound.playsound(arquivo)
+
+    #Função que faz a assistente virtual capturar áudio do microfone
+    def escutar():
+        #Cria "ouvidos"
+        r = sr.Recognizer()
+        #procura por um microfone     
+        with sr.Microphone() as s:
+            #Configura o ambiente
+            r.adjust_for_ambient_noise(s)
+            #Captura o audio 
+            audio = r.listen(s)
+            #Transforma em texto
+            fala = r.recognize_google(audio, language="pt-br")
+        return fala
+       
+    escutar()
+
+    #Número aleatório
+    #Não se esqueça de importar a biblioteca random
+    num = random.radint(0,2)
+
+    #Vetor com três piadas
+    Piadas = ["Então, porque a aranha é o animal mais carente do mundo? Por que, ela é uma ar",
+    "Afinal, você conhece a piada do pônei? Pô nei eu kkkkkkkkkkkk.",
+    "Afinal, o que a vaca disse para o boi? Te amuuuuuuuuuuuuuuuu."]
+
+    """Se a função escutar, retornar "piadas", então nossa assistente conta uma piada"""
+
+    if escutar() == "piadas":
+        falar(piadas[num])
+</code>
+
+### Enviando e-mails 
+
+Enviar e-mails é uma tarefa tão repetitiva, por que não deixarmos nossa assistente fazer isso por nós.<br>
+
+<b>OBS:</b> Para darmos esta funcionalidade a nossa assistente usaremos uma biblioteca no próprio python.
+
+<code>
+    
+    #biblioteca de criação do áudio
+    from gtts import gTTS
+    #biblioteca de reprodução do áudio
+    import playsound
+    #biblioteca que recebe o áudio do microfone
+    import speech_recognition as sr
+    #biblioteca que gera números aleatórios
+    import random    
+    #biblioteca para envio de e-mails
+    import smtplib    
+
+    #Função que faz a assistente virtual falar
+    #O parâmetro text é o texto que desejamos que seja falado
+    def falar(text):
+        #Nesta linha acontece a mágica
+        tts = gTTS(text=text,lang="pt")
+        arquivo = "voz.mp3"
+        #Aqui salvamos o arquivo .mp3
+        tts.save(arquivo)
+        #Aqui reproduzimos
+        playsound.playsound(arquivo)
+
+    #Função que faz a assistente virtual capturar áudio do microfone
+    def escutar():
+        #Cria "ouvidos"
+        r = sr.Recognizer()
+        #procura por um microfone     
+        with sr.Microphone() as s:
+            #Configura o ambiente
+            r.adjust_for_ambient_noise(s)
+            #Captura o audio 
+            audio = r.listen(s)
+            #Transforma em texto
+            fala = r.recognize_google(audio, language="pt-br")
+        return fala
+    
+    escutar()   
+    #Número aleatório
+    #Não se esqueça de importar a biblioteca random
+    num = random.radint(0,2)
+
+    #Vetor com três piadas
+    Piadas = ["Então, porque a aranha é o animal mais carente do mundo? Por que, ela é uma ar",
+    "Afinal, você conhece a piada do pônei? Pô nei eu kkkkkkkkkkkk.",
+    "Afinal, o que a vaca disse para o boi? Te amuuuuuuuuuuuuuuuu."]
+
+    """Se a função escutar, retornar "piadas", então nossa assistente conta uma piada"""
+
+    if escutar() == "piadas":
+        falar(piadas[num])
+    #Envia um e-mail
+    elif escutar() == "e-mail":
+        email_remetente = "Digite aqui seu e-mail"
+        senha_rementente = "Digite aqui a senha do seu e-mail"
+        email_destinatario = "Digite o e-mail que vai receber sua mensagem"
+        mensagem = "Digite aqui a mensagem que você deseja enviar"
+
+        #Conexão com o servidor do gmail, via protocolo SMTP
+        """Caso, deseje mudar o servidor de e-mail, verifique o endereço smtp e a porta, do novo servidor""" 
+        email = smtplib.SMTP("smtp.gmail.com",587)
+
+        #Inicia conexão com protocolo TTLS
+        email.starttls()
+
+        #Faz login na sua conta de e-mail, no caso gmail
+        email.login(email_remetente,senha_remetente)
+
+        #Envia o e-mail
+        email.sendmail(email_remetente,email_destinatario,mensagem)
+
+        falar("Enviei o e-mail")
+</code>
+
+<b>OBS1:</b> Caso, esteja usando o gmail você terá que liberar o acesso da nossa assistente nas configurações do gmail.
+
+### Acessando sites
+
+Nossa assistente, já tem 4 funcionalidades, por que não programarmos mais uma?<br>
+Vamos, ensinar ela a abrir um site agora.
+
+<b>OBS:</b> Usaremos a biblioteca webbrowser não se esqueça de importa-la.
+
+<code>
+
+    #biblioteca de criação do áudio
+    from gtts import gTTS
+    #biblioteca de reprodução do áudio
+    import playsound
+    #biblioteca que recebe o áudio do microfone
+    import speech_recognition as sr
+    #biblioteca que gera números aleatórios
+    import random    
+    #biblioteca para envio de e-mails
+    import smtplib  
+    #biblioteca para controlar o navegador
+    import webbrowser as nav
+
+    #Função que faz a assistente virtual falar
+    #O parâmetro text é o texto que desejamos que seja falado
+    def falar(text):
+        #Nesta linha acontece a mágica
+        tts = gTTS(text=text,lang="pt")
+        arquivo = "voz.mp3"
+        #Aqui salvamos o arquivo .mp3
+        tts.save(arquivo)
+        #Aqui reproduzimos
+        playsound.playsound(arquivo)
+
+    #Função que faz a assistente virtual capturar áudio do microfone
+    def escutar():
+        #Cria "ouvidos"
+        r = sr.Recognizer()
+        #procura por um microfone     
+        with sr.Microphone() as s:
+            #Configura o ambiente
+            r.adjust_for_ambient_noise(s)
+            #Captura o audio 
+            audio = r.listen(s)
+            #Transforma em texto
+            fala = r.recognize_google(audio, language="pt-br")
+        return fala
+    
+    escutar()   
+    #Número aleatório
+    #Não se esqueça de importar a biblioteca random
+    num = random.radint(0,2)
+
+    #Vetor com três piadas
+    Piadas = ["Então, porque a aranha é o animal mais carente do mundo? Por que, ela é uma ar",
+    "Afinal, você conhece a piada do pônei? Pô nei eu kkkkkkkkkkkk.",
+    "Afinal, o que a vaca disse para o boi? Te amuuuuuuuuuuuuuuuu."]
+
+    """Se a função escutar, retornar "piadas", então nossa assistente conta uma piada"""
+
+    if escutar() == "piadas":
+        falar(piadas[num])
+    #Envia um e-mail
+    elif escutar() == "e-mail":
+        email_remetente = "Digite aqui seu e-mail"
+        senha_rementente = "Digite aqui a senha do seu e-mail"
+        email_destinatario = "Digite o e-mail que vai receber sua mensagem"
+        mensagem = "Digite aqui a mensagem que você deseja enviar"
+
+        #Conexão com o servidor do gmail, via protocolo SMTP
+        """Caso, deseje mudar o servidor de e-mail, verifique o endereço smtp e a porta, do novo servidor""" 
+        email = smtplib.SMTP("smtp.gmail.com",587)
+
+        #Inicia conexão com protocolo TTLS
+        email.starttls()
+
+        #Faz login na sua conta de e-mail, no caso gmail
+        email.login(email_remetente,senha_remetente)
+
+        #Envia o e-mail
+        email.sendmail(email_remetente,email_destinatario,mensagem)
+
+        falar("Enviei o e-mail")
+        
+        elif escutar() == "google":
+            nav.open("www.google.com.br")
+</code>
+
+FALTA WEB-CRAWLLER
