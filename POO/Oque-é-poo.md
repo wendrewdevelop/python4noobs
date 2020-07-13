@@ -24,3 +24,5 @@
 <br>
 <br>
 <b>Métodos: </b>São funções de uma classe.
+
+<b>OBS: </b>Estes arquivos, forneceram uma visão bem superficial sobre POO.
