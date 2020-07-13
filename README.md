@@ -64,10 +64,8 @@
 ### 8. Módulo TKinter (interface grafica desktop)
 
 [Interfaces Gráficas com Tk](/Módulo-Tkinter/entendendo_manipulacao_arquivos.md)<br>
-[Módulos Tkinter](/Módulo-Tkinter/modulos_tkinter.md)<br>
 [Hello World](/Módulo-Tkinter/hello_world.md)<br>
 [Widgets Tkinter](/Módulo-Tkinter/widgets_tkinter.md)<br>
-[Atributos padrão](/Módulo-Tkinter/atributos_padrao.md)<br>
 [Gerenciamento da geometria](/Módulo-Tkinter/gerenciamento_geometria-.md)
 
 ### 9. Gerando gráficos com python
