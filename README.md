@@ -95,13 +95,19 @@
 [Timeouts](/Trabalhando-com-API's/timeouts.md)<br>
 [Erros e Exceções](/Trabalhando-com-API's/erros_excecoes.md)
 
-### 11. Projetos de conclusão
+### 11. POO
+
+[O que é POO](/POO/Oque-é-poo.md)<br>
+[Herança](/POO/heranca.md)<br>
+[polimorfismo](/POO/polimorfismo.md)
+
+### 12. Projetos de conclusão
 
 [Criando uma calculadora com interface grafica](/Projetos-de-conclusão/bloco_de_notas.md)<br>
 [Criando bot](/Projetos-de-conclusão/criando_bot.md)<br>
 [Requisições em uma API publica](/Projetos-de-conclusão/realizando_requisicoes_em_api_publica.md)
 
-### 12. Extras
+### 13. Extras
 
 [Bloco de notas com tkinter](/Extras/bloco_de_notas.md)<br>
 [Jupyter Notebook](/Extras/jupyter_notebook.md)<br>
