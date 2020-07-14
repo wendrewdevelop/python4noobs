@@ -106,10 +106,6 @@
 [Funções](/Testes-Unitários/testes-funções.md)<br>
 [Métodos](/Testes-Unitários/testes-métodos.md)
 
-[O que é POO](/POO/Oque-é-poo.md)<br>
-[Herança](/POO/heranca.md)<br>
-[polimorfismo](/POO/polimorfismo.md)
-
 ### 13. Projetos de conclusão
 
 [Criando uma calculadora com interface grafica](/Projetos-de-conclusão/bloco_de_notas.md)<br>
