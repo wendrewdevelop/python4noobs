@@ -44,7 +44,7 @@ Vamos definir algumas configurações da nossa tela.
 link do ícone: https://icon-icons.com/pt/icone/calculadora/34473
 
 Depois, basta executar e sua janela ficará assim:<br>
-<img src="assets/Tela.jpg"/>
+![]("assets/Tela.jpeg")
 
 Vamos, criar agora os botões e a caixa texto que receberá as operações.
 
