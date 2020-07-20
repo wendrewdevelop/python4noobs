@@ -43,8 +43,7 @@ Vamos definir algumas configurações da nossa tela.
 <b>OBS:</b> Nomeie o ícone com o nome ico.
 link do ícone: https://icon-icons.com/pt/icone/calculadora/34473
 
-Depois, basta executar e sua janela ficará assim:<br>
-![](assets/Tela.jpeg)
+Depois, basta executar e conferir como ficou.<br>
 
 Vamos, criar agora os botões e a caixa texto que receberá as operações.
 
@@ -189,13 +188,7 @@ Antes de execurtamos novamente vamos criar as funções dos botões e adiciona-l
 
 </code>
 
-Agora, sua calculadora está pronta.
-<br>
-<br>
-![](assets/Tela2.jpeg)
-<br>
-<br>
-Agora, você tem uma calculadora desenvolvida por sí mesmo, aproveite. Fique a vontade para explorar o código da calculadora e entender como cada linha funciona.
+Agora, sua calculadora está pronta, basta executar e verificar como ficou. Enfim,você tem uma calculadora desenvolvida por sí mesmo, aproveite. Fique a vontade para explorar o código da calculadora e entender como cada linha funciona.
 
 ## Caso precise de ajuda
 Caso, tenha ficado uma dúvida sobre o conteúdo apresentado neste readme, acesse o discord da heartdevs que a comunidade fornecerá o melhor suporte para você.<br>
