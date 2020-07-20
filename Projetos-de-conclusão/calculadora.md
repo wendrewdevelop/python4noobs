@@ -44,7 +44,7 @@ Vamos definir algumas configurações da nossa tela.
 link do ícone: https://icon-icons.com/pt/icone/calculadora/34473
 
 Depois, basta executar e sua janela ficará assim:<br>
-![]("assets/Tela.jpeg")
+![](assets/Tela.jpeg)
 
 Vamos, criar agora os botões e a caixa texto que receberá as operações.
 
@@ -192,7 +192,7 @@ Antes de execurtamos novamente vamos criar as funções dos botões e adiciona-l
 Agora, sua calculadora está pronta.
 <br>
 <br>
-<img src="assets/Tela2.jpeg"/>
+![](assets/Tela2.jpeg)
 <br>
 <br>
 Agora, você tem uma calculadora desenvolvida por sí mesmo, aproveite. Fique a vontade para explorar o código da calculadora e entender como cada linha funciona.
