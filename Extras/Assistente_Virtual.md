@@ -2,7 +2,7 @@
 <b>Requisitos:</b> 
 <ul>
     <li>Um microfone.</li>
-    <li>PyThon e o pacote pip instalados na máquina.</li>
+    <li>Python e o pacote pip instalados na máquina.</li>
 </ul>
 Já pensou em desenvolver uma nova siri?<br>
 Já pensou em desenvolver a sua cortana?<br>
@@ -416,5 +416,11 @@ Vamos, ensinar ela a abrir um site agora.
             nav.open("www.google.com.br")
 </code>
 
+Enfim, projeto concluido, nomeie sua <b>AV</b> e divirta-se.
 
-Quase pronto, falta web crawller
+
+## Caso precise de ajuda
+Caso, tenha ficado uma dúvida sobre o conteúdo apresentado neste readme, acesse o discord da heartdevs que a comunidade fornecerá o melhor suporte para você.<br>
+Discord: <a href="https://discord.com/invite/7UJDgBG">discord</a>
+<hr> 
+
