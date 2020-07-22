@@ -111,7 +111,6 @@
 [Bloco de notas com tkinter](/Extras/bloco_de_notas.md)<br>
 [Assistente virtual](/Extras/Assistente_virtual.md)<br>
 [Calculadora](/Extras/calculadora.md)<br>
-[Flask Blueprint](/Extras/flask_blueprint.md)<br>
 
 
 ## Autores & Contribuidores
