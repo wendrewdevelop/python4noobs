@@ -1,112 +1,76 @@
-﻿# 3.2 - String
-String é uma cadeia de caracteres envolvida por aspas simples ou duplas.<br>
-Como nos seguintes, exemplos:<br>
+# 3.2 - String
+String é uma cadeia de caracteres. Uma string **sempre** estará entre aspas simples, duplas, triplas simples ou triplas duplas.
+Como nos seguintes, exemplos:
 
-Exemplo 1:<br>
-'Olá Mundo'<br>
-<br>
-Exemplo 2:<br>
-"H4rtDevs o melhor grupo de devs do Brasil"<br>
-<br>
-Exemplo 3:<br>
-"321123"<br>
+Exemplo 1:
+```python
+>>> 'Olá Mundo'
+'Olá Mundo'
+>>> "H4rtDevs o melhor grupo de devs do Brasil"
+'H4rtDevs o melhor grupo de devs do Brasil'
+>>> """Nossa, bem grande essa string..."""
+'Nossa, bem grande essa string...'
+```
 
-<p>Agora, vamos tirar a prova e conferir se o python reconhece estas cadeias como uma String.</p>
+Agora, vamos tirar a prova e conferir se o python reconhece estas cadeias como uma string.
 
 
 ## Hora do código
-<ol>
-    <li>Agora você vai abrir seu editor de código criar um arquivo <b>.py</b>.</li> 
-    <li>Criar três variáveis com nomes a sua escolha.</li> 
-<b>OBS:</b> No exemplo, eu coloquei os nomes: String1, String2 e String3.
-    <li>Em seguida, digitar três comandos <b>print</b> e como paramêtro usaremos o <b>método interno type</b> para saber se são realmente strings as nossas três variáveis.</li>
-</ol>
-</p>
-Assim, ficará o seu .py
+1. Agora você irá abrir o seu editor de código, criar um arquivo com extensão a **.py**.
+2. Criar três variáveis com nomes de sua escolha.
+3. Em seguida, usaremos duas funções, **print** e **type**.
+    * Usaremos **type** para verificar o tipo das variáveis e o **print** para ver o que **type** nos retorna!
 
-<code>
+O seu arquivo deverá ficar assim:
+```python
+string1 = 'Olá mundo'
+string2 = "H4rtDevs é maior grupo de devs do Brasil"
+string3 = """Nossa, bem grande essa string..."""
 
-    String1 = 'Olá mundo'
-    String2 = "H4rtDevs é maior grupo de devs do Brasil"
-    String3 = "321123"
+print(type(string1))
+print(type(string2))
+print(type(string3))
+```
 
-    print(type(String1))
-    print(type(String2))
-    print(type(String3))
-
-
-</code>
-
-
-## Hora de vê funcionando
-<p>Basta executar o script para recebermos a seguinte saída.</p>
-
-<code>
-
-    <class 'str'>
-    <class 'str'>
-    <class 'str'>
-
-</code>
-
+## Hora de ver funcionando!
+Basta executar o script para recebermos a seguinte saída.</p>
+```python
+<class 'str'>
+<class 'str'>
+<class 'str'>
+```
 
 ## Conversão para String
-<p>Variáveis que inicialmente não são do tipo <b>string</b> podem ser convertidas.<br>
-Vamos conferir, retirando as aspas da string3<br>
-</p>
+Variáveis que inicialmente não são do tipo **string** podem ser convertidas para uma.
+Vamos conferir retirando as aspas do valor da váriavel `string3`.
+```
+>>> string3 = "321123"
+>>> string3 = 321123
+>>> # Vamos agora conferir o novo tipo da variável `string3`.
+>>> type(string3)
+<class 'int'>
+```
 
-<code>
-    
-    String3 = 321123
-
-</code>
-Vamos agora conferir o novo tipo da variável <b>String3</b>.
-<code>
-
-    <class 'int'>
-
-</code>
-
-<p>O novo tipo da nossa variável é <b>inteiro</b>, ou seja, o <b>compilador python</b> reconheceu nossa variável como um número do tipo <b>inteiro.</b><br>
-Mas, se quiséssemos transformar esta variável em string novamente sem usar as aspas?<br>
-Basta, usar o método interno <b>str</b> na nossa impressão. 
-</p>
-
-<code>
- 
-    print(type(str(String3)))
-
-</code>
-E assim, a nossa String3 volta a ser uma <b>string</b>.
-
-<code>
-
-    <class 'str'>
-
-</code>
-
+O novo tipo da nossa variável é **int** (integer ou inteiro), ou seja, o compilador do python reconheceu nossa variável como um número do tipo **int**.
+Mas, se quiséssemos transformar esta variável em string novamente sem usar as aspas?
+Basta, usar o "método" interno **str** na nossa impressão. 
+```
+>>> string3 = 321123
+>>> str(string3)
+'321123'
+```
+E assim, a nossa `string3` "volta a ser" uma **string**.
 
 ## Concatenação
 
-<p>A <b>Concatenação</b> é a operação de unir o conteúdo de duas strings.</p>
-<br>
-Crie uma nova variável e atribua a ela dois textos entre aspas separados por um sinal de adição.
+A concatenação é uma operação de unir duas strings.
+Crie uma nova variável e atribua a ela duas strings e separe-as por um sinal de adição e veja a saída.
+```python
+>>> string4 = "Python" + "é legal"
+>>> string4
+'Pythoné legal'
+```
 
-
-<code>
-
-    String4 = "Python" + "é legal"
-
-</code>
-
-E terá como saída:
-
-<code>
-
-    Python é legal
-
-</code>
-<p>
 Que tal demonstrarmos o quanto gostamos de <b>python</b>, repetindo três vezes a palavra muito na nossa saída?<br>
 Use a <b>String4</b>.
 </p>
