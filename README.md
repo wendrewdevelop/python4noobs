@@ -111,6 +111,8 @@
 [Bloco de notas com tkinter](/Extras/bloco_de_notas.md)<br>
 [Assistente virtual](/Extras/Assistente_Virtual.md)<br>
 [Calculadora](/Extras/calculadora.md)<br>
+[Keywords](/Extras/keywords.md)<br>
+[Magic Methods](/Extras/magic_methods.md)<br>
 
 
 ## Autores & Contribuidores
