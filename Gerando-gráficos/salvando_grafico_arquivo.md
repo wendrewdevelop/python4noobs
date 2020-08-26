@@ -24,8 +24,8 @@ plt.plot(
     [1, 3, 5], 
     [2, 5, 7]
 )
-plt.show()
 plt.savefig('grafico.png')
+plt.show()
 ```
 
 - Se desejar saber outros formatos disponíveis, a função `plt.gcf().canvas.get_supported_filetypes()` retorna a lista dos formatos suportados.
