@@ -99,7 +99,7 @@
 
 [O que é POO](/POO/Oque-é-poo.md)<br>
 [Herança](/POO/heranca.md)<br>
-[Polimorfismo](/POO/polimorfismo.md)
+[Polimorfismo](/POO/polimorfismo.md)<br>
 [Trabalhando com objetos](/POO/Trabalhando_com_objetos.md)
 
 ### 12. Testes unitários
