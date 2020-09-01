@@ -58,7 +58,7 @@
 
 [Entendendo a manipulação de arquivos](/Manipulando-arquivos/entendendo_manipulacao_arquivos.md)<br>
 [Lendo arquivos](/Manipulando-arquivos/lendo_arquivos.md)<br>
-[Criando e abrindo arquivos](/Manipulando-arquivos/criando_abrindo_arquivos.md)
+[Criando e abrindo arquivos](/Manipulando-arquivos/criando_abrindo_arquivos.md)<br>
 [Escrevendo em arquivos](/Manipulando-arquivos/escrevendo_em_arquivos.md)
 
 ### 8. Módulo TKinter (interface grafica desktop)
