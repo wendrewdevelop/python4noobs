@@ -1,6 +1,6 @@
 # Listas
 ## Definição
-O compilador <b>python</b> reconhece como uma lista, uma sequência de objetos que estejam envolvidas por [ ] (conchetes) e separadas por vírgulas.
+O interpretador <b>python</b> reconhece como uma lista, uma sequência de objetos que estejam envolvidas por [ ] (conchetes) e separadas por vírgulas.
 
 Assim, como as Strings, as listas também tem índices.
 

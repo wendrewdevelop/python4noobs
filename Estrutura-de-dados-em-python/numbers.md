@@ -37,7 +37,7 @@ Saída
     <class 'int'>
 
 </code>
-Como já era esperado, o compilador <b>python</b> definiu estas variáveis como números inteiros.
+Como já era esperado, o interpretador <b>python</b> definiu estas variáveis como números inteiros.
 
 ### Float
 
@@ -50,7 +50,7 @@ Exemplos:
     num4 = -433.6776 #número negativo com quatro casas decimais
 
 </code>
-Consultemos, agora ao compilador <b>python</b>.
+Consultemos, agora ao interpretador <b>python</b>.
 
 <code>
 
@@ -76,7 +76,7 @@ Exemplos:
     num6 = 4j
     num7 = -10j
 </code>
-Consultemos, agora ao compilador <b>python</b>.
+Consultemos, agora ao interpretador <b>python</b>.
 <code>
 
     print(type(num5))

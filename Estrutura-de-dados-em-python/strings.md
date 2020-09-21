@@ -51,7 +51,7 @@ Vamos conferir retirando as aspas do valor da váriavel `string3`.
 <class 'int'>
 ```
 
-O novo tipo da nossa variável é **int** (integer ou inteiro), ou seja, o compilador do python reconheceu nossa variável como um número do tipo **int**.
+O novo tipo da nossa variável é **int** (integer ou inteiro), ou seja, o interpretador do python reconheceu nossa variável como um número do tipo **int**.
 Mas, se quiséssemos transformar esta variável em string novamente sem usar as aspas?
 Basta, usar o "método" interno **str** na nossa impressão. 
 ```
@@ -245,7 +245,7 @@ Vejamos, estes métodos na prática.
 Saída.
 <code>
 
-    #Isto é um comentário, ou seja, a linha não é executada pelo compilador
+    #Isto é um comentário, ou seja, a linha não é executada pelo interpretador
 
     True #True, pois não há caracteres alfanúmericos na String7
 
