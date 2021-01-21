@@ -26,3 +26,40 @@
 <b>Métodos: </b>São funções de uma classe.
 
 <b>OBS: </b>Estes arquivos, forneceram uma visão bem superficial sobre POO.
+
+### Bom saber
+
+- Em Python, todo valor é na verdade um objeto. Seja ele uma lista, um inteiro ou uma string, tanto faz. Um script manipula esses objetos e/ou seus métodos a modo de realizar uma ação. Por exemplo, em uma *class Pessoa* o nome *Wendrew* é um objeto, a altura *1,85* também é um objeto e assim sucessivamente. Uma classe em python é um construtor de objetos e não apenas uma declaração qualquer.
+
+- Uma classe constrói objetos do tipo *type*, permitindo assim que criemos objetos desse tipo recém criado, veja:
+
+```python
+[IN]:
+
+class Teste(object): pass
+print(type(Teste))
+```
+
+```python
+[OUT]:
+
+<class 'type'>
+```
+
+Isso não é muito diferente de outras linguagens de programação, mas a magica ainda esta por vir, pois tendo criado o *objeto* com a declaração *class* podemos acessa-lo como qualquer outro objeto, inclusive acrescentar atributos a ele:
+
+```python
+[IN]:
+
+Teste.x = 0
+print(Teste.x)
+
+```
+
+```python
+[OUT]:
+
+0
+```
+
+Perceba que acrescentamos o atributo *x* ao objeto *Teste*, e isso faz com que as instancias desse objeto passe a ter esse atributo.
