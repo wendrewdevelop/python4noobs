@@ -162,6 +162,11 @@
             <td><code>data = pickle.load(pkl_file)</code></td>
             <td>Serialização.</td>
         </tr>
+        <tr>
+            <td><code>__slots__(self)</code></td>
+            <td><code>__slots__ = 'foo', 'bar'</code></td>
+            <td>permite que você indique explicitamente quais atributos de instância você espera que suas instâncias de objeto tenham.</td>
+        </tr>
     </tbody>
 </table>
     
