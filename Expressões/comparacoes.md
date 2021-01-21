@@ -1,6 +1,6 @@
 ## Comparando objetos com o operador ==
 
-- Imagina a situação em que temos uma biblioteca e nela temos um acervo de diversos livros. Digamos que quero ver se um livro ja existe no meu acervo.
+- Imagina a situação em que temos uma biblioteca e nela temos um acervo de diversos livros. Digamos que quero ver se um livro ja existe no meu acervo;
 
 Temos uma lista de livros
 
@@ -102,7 +102,6 @@ Se __x__ for maior que __y__, retorna *False*.
 
 <img src="assets/menor_igual.png" alt="python_logo_extended" width="100%" />
 
-
 ## Resumindo...
 
 
@@ -115,6 +114,10 @@ Se __x__ for maior que __y__, retorna *False*.
 |   __x >= y__      | __x__ é maior ou igual a __y__?   |
 |   __x <= y__      | __x__ é menor ou igual a __y__?  |
 
+
+## É bom saber
+
+- todas as operações de comparação em Python têm a mesma prioridade.
          
          
          

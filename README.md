@@ -42,6 +42,7 @@
 
 [Conversões aritméticas](/Expressões/conversoes_aritmeticas.md)<br>
 [Comparações](/Expressões/comparacoes.md)<br>
+[Comparações](/Expressões/expressoes_condicionais.md)<br>
 [Introdução](/Expressões/introdução.md)<br>
 
 ### 6. Instruções simples
