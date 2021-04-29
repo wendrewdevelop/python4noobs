@@ -126,7 +126,7 @@ Saída
 Agora, eu quero exibir todas as letras com exceção do <b>P</b> e <b>N</b>.
 <code>
 
-    print(String5[1:4])
+    print(String5[1:5])
 </code>
 saída.
 <code>
@@ -247,9 +247,9 @@ Saída.
 
     #Isto é um comentário, ou seja, a linha não é executada pelo interpretador
 
-    True #True, pois não há caracteres alfanúmericos na String7
+    True #True, pois só há caracteres alfanúmericos na String7
 
-    False #False, pois há caracteres alfanúmericos na String8
+    False #False, pois há caracteres que não são alfanúmericos na String8
 
     Brazil #A letra s foi substituida pela letra z
 
