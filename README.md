@@ -33,10 +33,10 @@
 
 ### 4. Estruturas de condição
 
-[if e else](/Estruturas-de-condição/if_else.md)<br>
-[for](/Estruturas-de-condição/for.md)<br>
-[while](/Estruturas-de-condição/while.md)<br>
-[List Comprehensions](/Estruturas-de-condição/list_comprehensions.md)
+[if e else](/Controle-de-fluxo/if_else.md)<br>
+[for](/Controle-de-fluxo/for.md)<br>
+[while](/Controle-de-fluxo/while.md)<br>
+[List Comprehensions](/Controle-de-fluxo/list_comprehensions.md)
 
 ### 5. Expressões
 
