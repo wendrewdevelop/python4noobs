@@ -22,14 +22,14 @@
 
 ### 3. Estrutura de dados em python
 
-[Introdução a estrutura de dados em python](/Estrutura-de-dados-em-python/introducao_estrutura_dados.md)<br>
-[String](/Estrutura-de-dados-em-python/strings.md)<br>
-[Numbers](/Estrutura-de-dados-em-python/numbers.md)<br>
-[Listas](/Estrutura-de-dados-em-python/listas.md)<br>
-[Dicionarios](/Estrutura-de-dados-em-python/dicionarios.md)<br>
-[Tuplas](/Estrutura-de-dados-em-python/tuplas.md)<br>
-[Sets](/Estrutura-de-dados-em-python/sets.md)<br>
-[Booleanos](/Estrutura-de-dados-em-python/booleanos.md)<br>
+[Introdução a estrutura de dados em python](/Tipos/introducao_estrutura_dados.md)<br>
+[String](/Tipos/strings.md)<br>
+[Numbers](/Tipos/numbers.md)<br>
+[Listas](/Tipos/listas.md)<br>
+[Dicionarios](/Tipos/dicionarios.md)<br>
+[Tuplas](/Tipos/tuplas.md)<br>
+[Sets](/Tipos/sets.md)<br>
+[Booleanos](/Tipos/booleanos.md)<br>
 
 ### 4. Estruturas de condição
 
