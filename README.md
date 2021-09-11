@@ -17,8 +17,8 @@
 ### 2. Instalação
 
 [Windows](/Instalação/Windows.md)<br>
-[Linux](/Introdução/Linux.md)<br>
-[MacOS](/Introdução/MacOS.md)
+[Linux](/Instalação/Linux.md)<br>
+[MacOS](/Instalação/MacOS.md)
 
 ### 3. Estrutura de dados em python
 
