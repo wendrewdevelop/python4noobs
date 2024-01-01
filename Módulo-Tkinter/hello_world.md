@@ -55,4 +55,4 @@
 <img src="assets/hello_world_tkinter.png" width="100%" />
 
 
-Agora que ja temos uma base, podemos ir para o [proximo passo](/Módulo-Tkinter/atributos_padrao.md) e conhecer os atributos padrões do tkinter.
+Agora que ja temos uma base, podemos ir para o [proximo passo](/Módulo-Tkinter/widgets_tkinter.md) e conhecer os atributos padrões do tkinter.
